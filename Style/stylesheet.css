@@ -157,5 +157,117 @@ width: 50%;
     color:#c0c0c0;
     letter-spacing: 0.5px;
 }
+/* About page end */
+/* project page Start */
+#project{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding : 40px 0px;
+}
+.projects{
+    margin-top: -220px;
+text-align: center;
+color: white;
+letter-spacing: 1px;
+}
+.projects p{
+    color: #c0c0c0;
+    padding-top: 10px;
+}
+.work-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-box{
+    background-color: #fff;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.work-img{
+    width: 100%;
+    height: 60%;
+}
+.work-img img{
+    width: 100%;
+    height: 100%;
+}
+.work-heading{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
 
+}
+.work-heading p{
+    text-align: center;
+    letter-spacing: 1px;
+}
 /* ABout page end */
+/* Contact us start*/
+.contat-heading{
+    margin-top: -250px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    }
+    .contat-heading p{
+        color: #c0c0c0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+#contact{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+#contact form{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact form input, #contact form textarea{
+    width: 100%;
+    height: 50px;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#contact form textarea{
+    height: 150px;
+    height: 45px;
+    color: #000;
+    text-transform: uppercase;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: whitesmoke;
+    padding:20px;
+}
+
+/* Contact us Ends */
