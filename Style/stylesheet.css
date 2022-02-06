@@ -4,6 +4,10 @@
 margin: 0;
 padding:0;
 }
+html{
+    scroll-behavior: smooth;
+
+}
 body{
     margin: 0;
     padding: 0;
@@ -209,7 +213,6 @@ letter-spacing: 1px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-transform: uppercase;
 
 }
 .work-heading p{
